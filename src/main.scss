@@ -1,0 +1,16 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__container {
+  flex-grow: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: white;
+}
