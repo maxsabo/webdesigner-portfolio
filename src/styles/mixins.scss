@@ -1,0 +1,27 @@
+@use './variables.scss' as variables;
+
+
+@mixin on-tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin on-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin smooth-transition($prop) {
+  transition: $prop 300ms ease;
+}
+
+@mixin container {
+  max-width: 90%;
+  @content;
+
+  @include on-desktop {
+    width: variables.$max-container-width;
+  }
+}

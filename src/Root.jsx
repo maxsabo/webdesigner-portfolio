@@ -3,6 +3,8 @@ import { App } from "./App";
 import { Home } from "./tabs/Home";
 import { Projects } from "./tabs/Projects";
 import { Contacts } from "./tabs/Contacts";
+import CryptoWalletPage from "./components/pages/CryptoWalletPage/CryptoWalletPage";
+
 
 export const Root = () => {
   return (
@@ -12,6 +14,7 @@ export const Root = () => {
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contacts" element={<Contacts />} />
+          <Route path="crypto-wallet" element={<CryptoWalletPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

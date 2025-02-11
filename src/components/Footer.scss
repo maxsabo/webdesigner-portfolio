@@ -1,0 +1,56 @@
+@use '../styles/variables.scss' as variables;
+@use '../styles/mixins.scss' as mixins;
+
+.footer {
+  background-color: #121216;
+  background-image: url('../images/logo_bg.svg');
+  height: 626px;
+  width: 100%;
+  padding: variables.$gap 0;
+
+  &__logo-img {
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__container {
+    @include mixins.container {
+      display: grid;
+      grid-template-rows: repeat(3, auto);
+      grid-template-columns: 1fr;
+      gap: variables.$gap;
+
+      @include mixins.on-tablet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+      }
+    }
+  }
+
+  .nav {
+    &__list {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      gap: variables.$small-gap;
+
+      @include mixins.on-tablet {
+        flex-direction: row;
+        align-items: center;
+        gap: variables.$gap;
+      }
+
+      @include mixins.on-desktop {
+        flex-direction: row;
+        align-items: center;
+        gap: variables.$large-gap;
+      }
+    }
+  }
+}

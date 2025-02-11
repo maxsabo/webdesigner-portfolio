@@ -1,0 +1,20 @@
+@use './variables.scss' as *;
+@use './fonts' as *;
+@use './mixins.scss' as *;
+@use './reset' as *;
+@use './components/buttons' as *;
+@use './components/nav' as *;
+@use './components/typography' as *;
+@use './components/container' as *;
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #121216;
+}
+
+.wrapper__container {
+  flex-grow: 1;
+
+}

@@ -1,0 +1,23 @@
+@use '../mixins.scss' as mixins;
+
+.headline--1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+
+  @include mixins.on-tablet {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+.headline--2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+
+  @include mixins.on-tablet {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}

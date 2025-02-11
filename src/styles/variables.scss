@@ -1,0 +1,73 @@
+// SCREEN SIZE
+
+$min-tablet-width: 640px;
+$max-tablet-width: 900px;
+$min-desktop-width: 1200px;
+$max-container-width: 1136px;
+
+// COLORS
+
+// FONTS
+
+$font-size-h1: 3rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.375rem;
+$font-size-h4: 1.25rem;
+$font-size-text: 0.875rem;
+$font-size-text-small: 0.75rem;
+
+// LINE HEIGHTS
+
+$line-height-h1: calc($font-size-h1 * 1.5);
+$line-height-h2: calc($font-size-h2 * 1.5);
+$line-height-h3: calc($font-size-h3 * 1.5);
+$line-height-h4: calc($font-size-h4 * 1.5);
+$line-height-text: calc($font-size-text * 1.5);
+$line-height-text-small: calc($font-size-text-small * 1.5);
+
+// MARGINS, GAPS, PADDINGS
+
+$tiny-gap: 0.25rem;
+$smaller-gap: 0.5rem;
+$small-gap: 1rem;
+$medium-gap: 1.5rem;
+$gap: 2rem;
+$big-gap: 2.5rem;
+$bigger-gap: 3.5rem;
+$middle-big-gap: 4rem;
+$middle-bigger-gap: 5rem;
+$large-gap: 6.25rem;
+
+// ELEMENTS SIZES
+
+$button-height-small: 2rem;
+$button-height: 2.5rem;
+$card-image-size: 5rem;
+$bullet-point-size: 1rem;
+$bullet-point-height: 0.25rem;
+$border-radius: 0.5rem;
+$cart-item-border-radius: 1rem;
+$shadow-blur: 1rem;
+$border-height: 2px;
+$header-size: 64px;
+
+// COUNTER SIZES
+
+$counter-width: 6rem;
+$counter-height: 2rem;
+
+// CRISPS SIZE
+
+$crumb-bottom-pading: 2.5rem;
+$crumb-gap: 0.5rem;
+$crumb-size: 1rem;
+
+// BUTTONS SIZES
+
+$buttons-width: 5rem;
+$buttons-height: 2rem;
+
+// BORDERS
+
+$border: 1px solid var(--icons-color);
+$shadow: 0 2px 16px 0 #0000001a;
