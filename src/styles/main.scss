@@ -5,16 +5,22 @@
 @use './components/buttons' as *;
 @use './components/nav' as *;
 @use './components/typography' as *;
-@use './components/container' as *;
 
 .wrapper {
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   background-color: #121216;
+  width: 100%;
 }
 
 .wrapper__container {
-  flex-grow: 1;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 0 16px;
+  width: 100%;
+  margin: 0 auto;
 }

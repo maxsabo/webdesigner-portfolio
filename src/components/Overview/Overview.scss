@@ -9,6 +9,10 @@
   &__image {
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 
     img {
       max-width: 100%;
@@ -56,4 +60,20 @@
     line-height: 1.6rem;
     color: #E9E5E1;
   }
+
+  @media (max-width: 768px) {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &__left,
+  &__right {
+    grid-column: auto;
+    width: 100%;
+  }
+  }
+  
 }
+
