@@ -11,7 +11,7 @@ export const sections = [
   "Retrospective",
 ];
 
-export const imageSrc = "src\\images\\wallet-images\\wallet_im1.png";
+export const imageSrc = "src/images/wallet-images/wallet_im1.png";
 export const role = "Lead Product Designer";
 export const roleDescription =
   "User Research, Interaction Design, Visual Design, User Flows, Rapid Prototyping, Design Handoff.";

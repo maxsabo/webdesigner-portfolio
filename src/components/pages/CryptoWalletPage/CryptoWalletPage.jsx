@@ -12,12 +12,12 @@ export default function CryptoWalletPage() {
 
       <section className="logo-section">
         <img
-          src="src\images\logo.png"
+          src="src/images/logo.png"
           alt="logo"
           className="logo-section__name"
         />
         <img
-          src="src\images\Ceratops_logo.svg"
+          src="src/images/Ceratops_logo.svg"
           alt="Ceratops Logo"
           className="logo-section__dynozaur"
         />
