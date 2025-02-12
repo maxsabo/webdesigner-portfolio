@@ -1,4 +1,4 @@
-import arrowIcon from "../../images/icons/arrow.svg";
+import arrowIcon from "/images/icons/arrow.svg";
 import { useNavigate } from "react-router-dom";
 import "./Back.scss";
 
